@@ -16,7 +16,7 @@
 		C93052C319D91B8300D5CCC9 /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C93052C019D91B4500D5CCC9 /* myo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C93052D219D9478700D5CCC9 /* MyoHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C93052D119D9478700D5CCC9 /* MyoHelper.mm */; };
 		C93052D519D9499900D5CCC9 /* EventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052D419D9499900D5CCC9 /* EventLoop.m */; };
-		C93052D819D949B200D5CCC9 /* GestureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052D719D949B200D5CCC9 /* GestureDelegate.m */; };
+		C93052DB19D94C3900D5CCC9 /* GestureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052DA19D94C3900D5CCC9 /* GestureDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		C93052D119D9478700D5CCC9 /* MyoHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyoHelper.mm; sourceTree = "<group>"; };
 		C93052D319D9499900D5CCC9 /* EventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLoop.h; sourceTree = "<group>"; };
 		C93052D419D9499900D5CCC9 /* EventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLoop.m; sourceTree = "<group>"; };
-		C93052D619D949B200D5CCC9 /* GestureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureDelegate.h; sourceTree = "<group>"; };
-		C93052D719D949B200D5CCC9 /* GestureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureDelegate.m; sourceTree = "<group>"; };
+		C93052D919D94C3900D5CCC9 /* GestureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureDelegate.h; path = Myonaise/GestureDelegate.h; sourceTree = "<group>"; };
+		C93052DA19D94C3900D5CCC9 /* GestureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestureDelegate.m; path = Myonaise/GestureDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +157,8 @@
 		C93052C519D91C1D00D5CCC9 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				C93052D619D949B200D5CCC9 /* GestureDelegate.h */,
-				C93052D719D949B200D5CCC9 /* GestureDelegate.m */,
+				C93052D919D94C3900D5CCC9 /* GestureDelegate.h */,
+				C93052DA19D94C3900D5CCC9 /* GestureDelegate.m */,
 				C93052A319D91B2E00D5CCC9 /* AppDelegate.h */,
 				C93052A419D91B2E00D5CCC9 /* AppDelegate.m */,
 			);
@@ -280,7 +280,7 @@
 				C93052D219D9478700D5CCC9 /* MyoHelper.mm in Sources */,
 				C93052A519D91B2E00D5CCC9 /* AppDelegate.m in Sources */,
 				C93052D519D9499900D5CCC9 /* EventLoop.m in Sources */,
-				C93052D819D949B200D5CCC9 /* GestureDelegate.m in Sources */,
+				C93052DB19D94C3900D5CCC9 /* GestureDelegate.m in Sources */,
 				C93052A219D91B2E00D5CCC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
