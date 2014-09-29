@@ -12,6 +12,11 @@
 		C93052A719D91B2E00D5CCC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93052A619D91B2E00D5CCC9 /* Images.xcassets */; };
 		C93052AA19D91B2E00D5CCC9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93052A819D91B2E00D5CCC9 /* MainMenu.xib */; };
 		C93052B619D91B2E00D5CCC9 /* MyonaiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052B519D91B2E00D5CCC9 /* MyonaiseTests.m */; };
+		C93052C119D91B4500D5CCC9 /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93052C019D91B4500D5CCC9 /* myo.framework */; };
+		C93052C319D91B8300D5CCC9 /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C93052C019D91B4500D5CCC9 /* myo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C93052C919D91DA200D5CCC9 /* MyoHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C93052C819D91DA200D5CCC9 /* MyoHelper.mm */; };
+		C93052CC19D9235200D5CCC9 /* EventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052CB19D9235200D5CCC9 /* EventLoop.m */; };
+		C93052CF19D92D6900D5CCC9 /* GestureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052CE19D92D6900D5CCC9 /* GestureDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,17 +29,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C93052C219D91B7000D5CCC9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C93052C319D91B8300D5CCC9 /* myo.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C930529C19D91B2E00D5CCC9 /* Myonaise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myonaise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93052A019D91B2E00D5CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93052A119D91B2E00D5CCC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C93052A319D91B2E00D5CCC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C93052A419D91B2E00D5CCC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C93052A319D91B2E00D5CCC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Myonaise/AppDelegate.h; sourceTree = "<group>"; };
+		C93052A419D91B2E00D5CCC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Myonaise/AppDelegate.m; sourceTree = "<group>"; };
 		C93052A619D91B2E00D5CCC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C93052A919D91B2E00D5CCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C93052AF19D91B2E00D5CCC9 /* MyonaiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyonaiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93052B419D91B2E00D5CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93052B519D91B2E00D5CCC9 /* MyonaiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyonaiseTests.m; sourceTree = "<group>"; };
+		C93052C019D91B4500D5CCC9 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myo.framework; path = ../../../../usr/local/lib/myo/myo.framework; sourceTree = "<group>"; };
+		C93052C719D91DA200D5CCC9 /* MyoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyoHelper.h; path = ../../temp/Myonaise/MyoHelper.h; sourceTree = "<group>"; };
+		C93052C819D91DA200D5CCC9 /* MyoHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyoHelper.mm; path = ../../temp/Myonaise/MyoHelper.mm; sourceTree = "<group>"; };
+		C93052CA19D9235200D5CCC9 /* EventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventLoop.h; path = ../../temp/Myonaise/EventLoop.h; sourceTree = "<group>"; };
+		C93052CB19D9235200D5CCC9 /* EventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventLoop.m; path = ../../temp/Myonaise/EventLoop.m; sourceTree = "<group>"; };
+		C93052CD19D92D6900D5CCC9 /* GestureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureDelegate.h; path = ../temp/Myonaise/GestureDelegate.h; sourceTree = "<group>"; };
+		C93052CE19D92D6900D5CCC9 /* GestureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestureDelegate.m; path = ../temp/Myonaise/GestureDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93052C119D91B4500D5CCC9 /* myo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +84,7 @@
 		C930529319D91B2E00D5CCC9 = {
 			isa = PBXGroup;
 			children = (
+				C93052BF19D91B3900D5CCC9 /* Frameworks */,
 				C930529E19D91B2E00D5CCC9 /* Myonaise */,
 				C93052B219D91B2E00D5CCC9 /* MyonaiseTests */,
 				C930529D19D91B2E00D5CCC9 /* Products */,
@@ -76,10 +103,9 @@
 		C930529E19D91B2E00D5CCC9 /* Myonaise */ = {
 			isa = PBXGroup;
 			children = (
-				C93052A319D91B2E00D5CCC9 /* AppDelegate.h */,
-				C93052A419D91B2E00D5CCC9 /* AppDelegate.m */,
-				C93052A619D91B2E00D5CCC9 /* Images.xcassets */,
-				C93052A819D91B2E00D5CCC9 /* MainMenu.xib */,
+				C93052C619D91D8D00D5CCC9 /* Core */,
+				C93052C519D91C1D00D5CCC9 /* Delegates */,
+				C93052C419D91C0C00D5CCC9 /* Interface */,
 				C930529F19D91B2E00D5CCC9 /* Supporting Files */,
 			);
 			path = Myonaise;
@@ -111,6 +137,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C93052BF19D91B3900D5CCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93052C019D91B4500D5CCC9 /* myo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93052C419D91C0C00D5CCC9 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C93052A619D91B2E00D5CCC9 /* Images.xcassets */,
+				C93052A819D91B2E00D5CCC9 /* MainMenu.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		C93052C519D91C1D00D5CCC9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C93052A319D91B2E00D5CCC9 /* AppDelegate.h */,
+				C93052A419D91B2E00D5CCC9 /* AppDelegate.m */,
+				C93052CD19D92D6900D5CCC9 /* GestureDelegate.h */,
+				C93052CE19D92D6900D5CCC9 /* GestureDelegate.m */,
+			);
+			name = Delegates;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C93052C619D91D8D00D5CCC9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C93052C719D91DA200D5CCC9 /* MyoHelper.h */,
+				C93052C819D91DA200D5CCC9 /* MyoHelper.mm */,
+				C93052CA19D9235200D5CCC9 /* EventLoop.h */,
+				C93052CB19D9235200D5CCC9 /* EventLoop.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +187,7 @@
 				C930529819D91B2E00D5CCC9 /* Sources */,
 				C930529919D91B2E00D5CCC9 /* Frameworks */,
 				C930529A19D91B2E00D5CCC9 /* Resources */,
+				C93052C219D91B7000D5CCC9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -211,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93052A519D91B2E00D5CCC9 /* AppDelegate.m in Sources */,
+				C93052C919D91DA200D5CCC9 /* MyoHelper.mm in Sources */,
+				C93052CC19D9235200D5CCC9 /* EventLoop.m in Sources */,
+				C93052CF19D92D6900D5CCC9 /* GestureDelegate.m in Sources */,
 				C93052A219D91B2E00D5CCC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,8 +396,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib/myo,
+				);
 				INFOPLIST_FILE = Myonaise/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -337,8 +411,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib/myo,
+				);
 				INFOPLIST_FILE = Myonaise/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

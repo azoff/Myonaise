@@ -7,20 +7,32 @@
 //
 
 #import "AppDelegate.h"
+#import "EventLoop.h"
+#import "GestureDelegate.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (nonatomic) EventLoop *loop;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+
+    if (!_loop) {
+        id identifier = @"com.azoffdesign.Myonaise";
+        id delegate = [[GestureDelegate alloc] init];
+        _loop = [[EventLoop alloc] initWithIdentifier:identifier delegate:delegate];
+    }
+    
+    [_loop startWithUpdateTime:1000 waitingTime:10000];
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    if (_loop) [_loop stop];
 }
 
 @end
