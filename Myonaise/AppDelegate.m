@@ -14,6 +14,7 @@
 
 @property (weak) IBOutlet NSWindow *window;
 @property (nonatomic) EventLoop *loop;
+@property (nonatomic) GestureDelegate *gestures;
 
 @end
 
@@ -23,8 +24,8 @@
 
     if (!_loop) {
         id identifier = @"com.azoffdesign.Myonaise";
-        id delegate = [[GestureDelegate alloc] init];
-        _loop = [[EventLoop alloc] initWithIdentifier:identifier delegate:delegate];
+        _gestures = [[GestureDelegate alloc] init];
+        _loop = [[EventLoop alloc] initWithIdentifier:identifier delegate:_gestures];
     }
     
     [_loop startWithUpdateTime:1000 waitingTime:10000];
