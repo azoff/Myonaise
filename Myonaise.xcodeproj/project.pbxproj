@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93052A219D91B2E00D5CCC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052A119D91B2E00D5CCC9 /* main.m */; };
+		C93052A519D91B2E00D5CCC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052A419D91B2E00D5CCC9 /* AppDelegate.m */; };
+		C93052A719D91B2E00D5CCC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93052A619D91B2E00D5CCC9 /* Images.xcassets */; };
+		C93052AA19D91B2E00D5CCC9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93052A819D91B2E00D5CCC9 /* MainMenu.xib */; };
+		C93052B619D91B2E00D5CCC9 /* MyonaiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93052B519D91B2E00D5CCC9 /* MyonaiseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C93052B019D91B2E00D5CCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C930529419D91B2E00D5CCC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C930529B19D91B2E00D5CCC9;
+			remoteInfo = Myonaise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C930529C19D91B2E00D5CCC9 /* Myonaise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myonaise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93052A019D91B2E00D5CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93052A119D91B2E00D5CCC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C93052A319D91B2E00D5CCC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C93052A419D91B2E00D5CCC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C93052A619D91B2E00D5CCC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C93052A919D91B2E00D5CCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C93052AF19D91B2E00D5CCC9 /* MyonaiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyonaiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93052B419D91B2E00D5CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93052B519D91B2E00D5CCC9 /* MyonaiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyonaiseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C930529919D91B2E00D5CCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93052AC19D91B2E00D5CCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C930529319D91B2E00D5CCC9 = {
+			isa = PBXGroup;
+			children = (
+				C930529E19D91B2E00D5CCC9 /* Myonaise */,
+				C93052B219D91B2E00D5CCC9 /* MyonaiseTests */,
+				C930529D19D91B2E00D5CCC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C930529D19D91B2E00D5CCC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C930529C19D91B2E00D5CCC9 /* Myonaise.app */,
+				C93052AF19D91B2E00D5CCC9 /* MyonaiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C930529E19D91B2E00D5CCC9 /* Myonaise */ = {
+			isa = PBXGroup;
+			children = (
+				C93052A319D91B2E00D5CCC9 /* AppDelegate.h */,
+				C93052A419D91B2E00D5CCC9 /* AppDelegate.m */,
+				C93052A619D91B2E00D5CCC9 /* Images.xcassets */,
+				C93052A819D91B2E00D5CCC9 /* MainMenu.xib */,
+				C930529F19D91B2E00D5CCC9 /* Supporting Files */,
+			);
+			path = Myonaise;
+			sourceTree = "<group>";
+		};
+		C930529F19D91B2E00D5CCC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93052A019D91B2E00D5CCC9 /* Info.plist */,
+				C93052A119D91B2E00D5CCC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C93052B219D91B2E00D5CCC9 /* MyonaiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C93052B519D91B2E00D5CCC9 /* MyonaiseTests.m */,
+				C93052B319D91B2E00D5CCC9 /* Supporting Files */,
+			);
+			path = MyonaiseTests;
+			sourceTree = "<group>";
+		};
+		C93052B319D91B2E00D5CCC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93052B419D91B2E00D5CCC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C930529B19D91B2E00D5CCC9 /* Myonaise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93052B919D91B2E00D5CCC9 /* Build configuration list for PBXNativeTarget "Myonaise" */;
+			buildPhases = (
+				C930529819D91B2E00D5CCC9 /* Sources */,
+				C930529919D91B2E00D5CCC9 /* Frameworks */,
+				C930529A19D91B2E00D5CCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myonaise;
+			productName = Myonaise;
+			productReference = C930529C19D91B2E00D5CCC9 /* Myonaise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C93052AE19D91B2E00D5CCC9 /* MyonaiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93052BC19D91B2E00D5CCC9 /* Build configuration list for PBXNativeTarget "MyonaiseTests" */;
+			buildPhases = (
+				C93052AB19D91B2E00D5CCC9 /* Sources */,
+				C93052AC19D91B2E00D5CCC9 /* Frameworks */,
+				C93052AD19D91B2E00D5CCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C93052B119D91B2E00D5CCC9 /* PBXTargetDependency */,
+			);
+			name = MyonaiseTests;
+			productName = MyonaiseTests;
+			productReference = C93052AF19D91B2E00D5CCC9 /* MyonaiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C930529419D91B2E00D5CCC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = azoffdesign;
+				TargetAttributes = {
+					C930529B19D91B2E00D5CCC9 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C93052AE19D91B2E00D5CCC9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C930529B19D91B2E00D5CCC9;
+					};
+				};
+			};
+			buildConfigurationList = C930529719D91B2E00D5CCC9 /* Build configuration list for PBXProject "Myonaise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C930529319D91B2E00D5CCC9;
+			productRefGroup = C930529D19D91B2E00D5CCC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C930529B19D91B2E00D5CCC9 /* Myonaise */,
+				C93052AE19D91B2E00D5CCC9 /* MyonaiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C930529A19D91B2E00D5CCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93052A719D91B2E00D5CCC9 /* Images.xcassets in Resources */,
+				C93052AA19D91B2E00D5CCC9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93052AD19D91B2E00D5CCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C930529819D91B2E00D5CCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93052A519D91B2E00D5CCC9 /* AppDelegate.m in Sources */,
+				C93052A219D91B2E00D5CCC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93052AB19D91B2E00D5CCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93052B619D91B2E00D5CCC9 /* MyonaiseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C93052B119D91B2E00D5CCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C930529B19D91B2E00D5CCC9 /* Myonaise */;
+			targetProxy = C93052B019D91B2E00D5CCC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C93052A819D91B2E00D5CCC9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93052A919D91B2E00D5CCC9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C93052B719D91B2E00D5CCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C93052B819D91B2E00D5CCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C93052BA19D91B2E00D5CCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Myonaise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C93052BB19D91B2E00D5CCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Myonaise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C93052BD19D91B2E00D5CCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyonaiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myonaise.app/Contents/MacOS/Myonaise";
+			};
+			name = Debug;
+		};
+		C93052BE19D91B2E00D5CCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyonaiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myonaise.app/Contents/MacOS/Myonaise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C930529719D91B2E00D5CCC9 /* Build configuration list for PBXProject "Myonaise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93052B719D91B2E00D5CCC9 /* Debug */,
+				C93052B819D91B2E00D5CCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93052B919D91B2E00D5CCC9 /* Build configuration list for PBXNativeTarget "Myonaise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93052BA19D91B2E00D5CCC9 /* Debug */,
+				C93052BB19D91B2E00D5CCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C93052BC19D91B2E00D5CCC9 /* Build configuration list for PBXNativeTarget "MyonaiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93052BD19D91B2E00D5CCC9 /* Debug */,
+				C93052BE19D91B2E00D5CCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C930529419D91B2E00D5CCC9 /* Project object */;
+}
